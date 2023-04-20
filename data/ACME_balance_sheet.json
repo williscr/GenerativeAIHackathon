@@ -1,0 +1,89 @@
+{
+  "company_name": "Acme Inc.",
+  "yearly_summary": {
+    "2017": {
+      "assets": {
+        "cash_and_cash_equivalents": 100000,
+        "accounts_receivable": 50000,
+        "inventory": 150000,
+        "property_plant_and_equipment": 500000
+      },
+      "liabilities": {
+        "accounts_payable": 75000,
+        "short_term_debt": 100000,
+        "long_term_debt": 250000
+      },
+      "equity": 300000
+    },
+    "2018": {
+      "assets": {
+        "cash_and_cash_equivalents": 125000,
+        "accounts_receivable": 75000,
+        "inventory": 175000,
+        "property_plant_and_equipment": 600000
+      },
+      "liabilities": {
+        "accounts_payable": 100000,
+        "short_term_debt": 125000,
+        "long_term_debt": 300000
+      },
+      "equity": 425000
+    },
+    "2019": {
+      "assets": {
+        "cash_and_cash_equivalents": 150000,
+        "accounts_receivable": 100000,
+        "inventory": 200000,
+        "property_plant_and_equipment": 700000
+      },
+      "liabilities": {
+        "accounts_payable": 125000,
+        "short_term_debt": 150000,
+        "long_term_debt": 350000
+      },
+      "equity": 525000
+    },
+    "2020": {
+      "assets": {
+        "cash_and_cash_equivalents": 200000,
+        "accounts_receivable": 125000,
+        "inventory": 225000,
+        "property_plant_and_equipment": 800000
+      },
+      "liabilities": {
+        "accounts_payable": 150000,
+        "short_term_debt": 200000,
+        "long_term_debt": 400000
+      },
+      "equity": 600000
+    },
+    "2021": {
+      "assets": {
+        "cash_and_cash_equivalents": 250000,
+        "accounts_receivable": 150000,
+        "inventory": 250000,
+        "property_plant_and_equipment": 900000
+      },
+      "liabilities": {
+        "accounts_payable": 175000,
+        "short_term_debt": 250000,
+        "long_term_debt": 450000
+      },
+      "equity": 675000
+    },
+    "2022": {
+      "assets": {
+        "cash_and_cash_equivalents": 300000,
+        "accounts_receivable": 175000,
+        "inventory": 275000,
+        "property_plant_and_equipment": 1000000
+      },
+      "liabilities": {
+        "accounts_payable": 200000,
+        "short_term_debt": 300000,
+        "long_term_debt": 500000
+      },
+      "equity": 750000
+    }
+  }
+}

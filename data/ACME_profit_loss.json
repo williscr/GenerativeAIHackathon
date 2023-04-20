@@ -1,0 +1,106 @@
+{
+  "company_name": "Acme Inc.",
+  "year": {
+    "2017": {
+      "revenue": 1500000,
+      "cost_of_goods_sold": 900000,
+      "gross_profit": 600000,
+      "operating_expenses": {
+        "salaries_and_wages": 350000,
+        "rent_and_utilities": 100000,
+        "marketing_and_advertising": 50000,
+        "depreciation": 50000,
+        "other_expenses": 100000
+      },
+      "operating_income": 250000,
+      "interest_expense": 50000,
+      "income_before_tax": 200000,
+      "income_tax_expense": 60000,
+      "net_income": 140000
+    },
+    "2018": {
+      "revenue": 1800000,
+      "cost_of_goods_sold": 1080000,
+      "gross_profit": 720000,
+      "operating_expenses": {
+        "salaries_and_wages": 400000,
+        "rent_and_utilities": 120000,
+        "marketing_and_advertising": 70000,
+        "depreciation": 60000,
+        "other_expenses": 110000
+      },
+      "operating_income": 240000,
+      "interest_expense": 60000,
+      "income_before_tax": 180000,
+      "income_tax_expense": 54000,
+      "net_income": 126000
+    },
+    "2019": {
+      "revenue": 2100000,
+      "cost_of_goods_sold": 1260000,
+      "gross_profit": 840000,
+      "operating_expenses": {
+        "salaries_and_wages": 450000,
+        "rent_and_utilities": 140000,
+        "marketing_and_advertising": 80000,
+        "depreciation": 70000,
+        "other_expenses": 130000
+      },
+      "operating_income": 190000,
+      "interest_expense": 70000,
+      "income_before_tax": 120000,
+      "income_tax_expense": 36000,
+      "net_income": 84000
+    },
+    "2020": {
+      "revenue": 2400000,
+      "cost_of_goods_sold": 1440000,
+      "gross_profit": 960000,
+      "operating_expenses": {
+        "salaries_and_wages": 500000,
+        "rent_and_utilities": 160000,
+        "marketing_and_advertising": 90000,
+        "depreciation": 80000,
+        "other_expenses": 150000
+      },
+      "operating_income": 220000,
+      "interest_expense": 80000,
+      "income_before_tax": 140000,
+      "income_tax_expense": 42000,
+      "net_income": 98000
+    },
+    "2021": {
+      "revenue": 2700000,
+      "cost_of_goods_sold": 1620000,
+      "gross_profit": 1080000,
+      "operating_expenses": {
+        "salaries_and_wages": 550000,
+        "rent_and_utilities": 180000,
+        "marketing_and_advertising": 100000,
+        "depreciation": 90000,
+        "other_expenses": 170000
+      },
+      "operating_income": 220000,
+      "interest_expense": 200000,
+      "income_before_taxes": 800000,
+      "income_tax_expense": 200000,
+      "net_income": 600000
+    },
+    "2022": {
+      "revenue": 5500000,
+      "cost_of_goods_sold": 2500000,
+      "gross_profit": 3000000,
+      "operating_expenses": {
+        "marketing": 600000,
+        "research_and_development": 350000,
+        "general_and_administrative": 800000
+      },
+      "operating_income": 1250000,
+      "other_income": 75000,
+      "interest_expense": 250000,
+      "income_before_taxes": 1075000,
+      "income_tax_expense": 300000,
+      "net_income": 775000
+    }
+  }
+}

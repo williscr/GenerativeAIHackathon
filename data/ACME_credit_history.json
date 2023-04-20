@@ -1,0 +1,40 @@
+{
+  "company_name": "Acme Inc.",
+  "history": [
+    {
+      "date": "2010-05-15",
+      "type": "Loan",
+      "amount_gbp": 250000,
+      "status": "Paid",
+      "description": "Loan used to start the business."
+    },
+    {
+      "date": "2012-09-10",
+      "type": "Loan",
+      "amount_gbp": 500000,
+      "status": "Paid",
+      "description": "Loan used to purchase machinery and equipment."
+    },
+    {
+      "date": "2015-06-01",
+      "type": "Loan",
+      "amount_gbp": 750000,
+      "status": "Unpaid",
+      "description": "Loan used to expand the product line. Currently in repayment."
+    },
+    {
+      "date": "2017-10-20",
+      "type": "Loan",
+      "amount_gbp": 100000,
+      "status": "Paid",
+      "description": "Loan used to purchase real estate. Defaulted after 6 months, but repayment complete now."
+    },
+    {
+      "date": "2020-03-05",
+      "type": "Loan",
+      "amount_gbp": 500000,
+      "status": "Paid",
+      "description": "Loan used to purchase new manufacturing equipment and expand the product line."
+    }
+  ]
+}

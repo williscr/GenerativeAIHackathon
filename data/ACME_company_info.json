@@ -1,0 +1,53 @@
+{
+  "applicant_name": "John Smith",
+  "applicant_age": 35,
+  "company_name": "Acme Inc.",
+  "industry": "Manufacturing",
+  "employee_count": 50,
+  "year_founded": 2010,
+  "business_information": {
+    "legal_name": "Acme Manufacturing Limited",
+    "business_address": "123 Main Street, London, UK",
+    "tax_id_number": "123-456-789",
+    "date_established": "2010-01-01",
+    "partners": [
+      {
+        "name": "Jane Doe",
+        "title": "CEO"
+      },
+      {
+        "name": "Bob Johnson",
+        "title": "CFO"
+      }
+    ],
+    "number_of_products": 10
+  },
+  "business_plan": {
+    "business_strategy": "Acme Inc. aims to become a leading provider of industrial machinery in the UK by offering high-quality products at competitive prices. Our strategy includes expanding our product line and entering new markets.",
+    "products_or_services": "We manufacture and sell a range of industrial machinery, including conveyor belts, assembly lines, and packaging equipment.",
+    "target_market": "Our target market consists of manufacturers in the UK, particularly those in the food and beverage, automotive, and aerospace industries.",
+    "competition": "Our main competitors are other manufacturers of industrial machinery, including companies such as XYZ Manufacturing and ABC Industrial Equipment.",
+    "financial_projections": {
+      "revenue": {
+        "2023": 5000000,
+        "2024": 6000000,
+        "2025": 7000000
+      },
+      "expenses": {
+        "2023": 4000000,
+        "2024": 4500000,
+        "2025": 5000000
+      },
+      "profit": {
+        "2023": 1000000,
+        "2024": 1500000,
+        "2025": 2000000
+      }
+    }
+  },
+  "number_of_key_suppliers": 5,
+  "size_of_customer_base": 100,
+  "loan_purpose": "Acme Inc. is seeking a loan of GBP 500,000 to purchase new manufacturing equipment and expand our product line.",
+  "loan_amount_gbp": 500000,
+  "loan_period_years": 5
+}

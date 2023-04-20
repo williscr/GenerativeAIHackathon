@@ -1,0 +1,23 @@
+{
+  "company_name": "Acme Inc.",
+  "loan_amount_gbp": 500000,
+  "loan_period_years": 5,
+  "loan_purpose": "Acme Inc. is seeking a loan of GBP 500,000 to purchase new manufacturing equipment and expand our product line.",
+  "collateral": [
+    {
+      "type": "Real estate",
+      "address": "456 Oak Street, London, UK",
+      "value_gbp": 750000
+    },
+    {
+      "type": "Machinery and equipment",
+      "description": "Conveyor belt and packaging equipment",
+      "value_gbp": 300000
+    },
+    {
+      "type": "Accounts receivable",
+      "description": "Unpaid invoices from customers",
+      "value_gbp": 200000
+    }
+  ]
+}

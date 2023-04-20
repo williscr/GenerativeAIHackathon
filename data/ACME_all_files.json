@@ -1,0 +1,330 @@
+{
+  "files":[
+    {
+      "company_info":
+        {
+          "applicant_name": "John Smith",
+          "applicant_age": 35,
+          "company_name": "Acme Inc.",
+          "industry": "Manufacturing",
+          "employee_count": 50,
+          "year_founded": 2010,
+          "business_information": {
+            "legal_name": "Acme Manufacturing Limited",
+            "business_address": "123 Main Street, London, UK",
+            "tax_id_number": "123-456-789",
+            "date_established": "2010-01-01",
+            "partners": [
+              {
+                "name": "Jane Doe",
+                "title": "CEO"
+              },
+              {
+                "name": "Bob Johnson",
+                "title": "CFO"
+              }
+            ],
+            "number_of_products": 10
+          },
+          "business_plan": {
+            "business_strategy": "Acme Inc. aims to become a leading provider of industrial machinery in the UK by offering high-quality products at competitive prices. Our strategy includes expanding our product line and entering new markets.",
+            "products_or_services": "We manufacture and sell a range of industrial machinery, including conveyor belts, assembly lines, and packaging equipment.",
+            "target_market": "Our target market consists of manufacturers in the UK, particularly those in the food and beverage, automotive, and aerospace industries.",
+            "competition": "Our main competitors are other manufacturers of industrial machinery, including companies such as XYZ Manufacturing and ABC Industrial Equipment.",
+            "financial_projections": {
+              "revenue": {
+                "2023": 5000000,
+                "2024": 6000000,
+                "2025": 7000000
+              },
+              "expenses": {
+                "2023": 4000000,
+                "2024": 4500000,
+                "2025": 5000000
+              },
+              "profit": {
+                "2023": 1000000,
+                "2024": 1500000,
+                "2025": 2000000
+              }
+            }
+          },
+          "number_of_key_suppliers": 5,
+          "size_of_customer_base": 100,
+          "loan_purpose": "Acme Inc. is seeking a loan of GBP 500,000 to purchase new manufacturing equipment and expand our product line.",
+          "loan_amount_gbp": 500000,
+          "loan_period_years": 5
+        }
+    },
+    {
+      "balance_sheet":
+        {
+          "company_name": "Acme Inc.",
+          "yearly_summary": {
+            "2017": {
+              "assets": {
+                "cash_and_cash_equivalents": 100000,
+                "accounts_receivable": 50000,
+                "inventory": 150000,
+                "property_plant_and_equipment": 500000
+              },
+              "liabilities": {
+                "accounts_payable": 75000,
+                "short_term_debt": 100000,
+                "long_term_debt": 250000
+              },
+              "equity": 300000
+            },
+            "2018": {
+              "assets": {
+                "cash_and_cash_equivalents": 125000,
+                "accounts_receivable": 75000,
+                "inventory": 175000,
+                "property_plant_and_equipment": 600000
+              },
+              "liabilities": {
+                "accounts_payable": 100000,
+                "short_term_debt": 125000,
+                "long_term_debt": 300000
+              },
+              "equity": 425000
+            },
+            "2019": {
+              "assets": {
+                "cash_and_cash_equivalents": 150000,
+                "accounts_receivable": 100000,
+                "inventory": 200000,
+                "property_plant_and_equipment": 700000
+              },
+              "liabilities": {
+                "accounts_payable": 125000,
+                "short_term_debt": 150000,
+                "long_term_debt": 350000
+              },
+              "equity": 525000
+            },
+            "2020": {
+              "assets": {
+                "cash_and_cash_equivalents": 200000,
+                "accounts_receivable": 125000,
+                "inventory": 225000,
+                "property_plant_and_equipment": 800000
+              },
+              "liabilities": {
+                "accounts_payable": 150000,
+                "short_term_debt": 200000,
+                "long_term_debt": 400000
+              },
+              "equity": 600000
+            },
+            "2021": {
+              "assets": {
+                "cash_and_cash_equivalents": 250000,
+                "accounts_receivable": 150000,
+                "inventory": 250000,
+                "property_plant_and_equipment": 900000
+              },
+              "liabilities": {
+                "accounts_payable": 175000,
+                "short_term_debt": 250000,
+                "long_term_debt": 450000
+              },
+              "equity": 675000
+            },
+            "2022": {
+              "assets": {
+                "cash_and_cash_equivalents": 300000,
+                "accounts_receivable": 175000,
+                "inventory": 275000,
+                "property_plant_and_equipment": 1000000
+              },
+              "liabilities": {
+                "accounts_payable": 200000,
+                "short_term_debt": 300000,
+                "long_term_debt": 500000
+              },
+              "equity": 750000
+            }
+          }
+        }
+    },
+    {
+      "profit_and_loss":
+        {
+          "company_name": "Acme Inc.",
+          "year": {
+            "2017": {
+              "revenue": 1500000,
+              "cost_of_goods_sold": 900000,
+              "gross_profit": 600000,
+              "operating_expenses": {
+                "salaries_and_wages": 350000,
+                "rent_and_utilities": 100000,
+                "marketing_and_advertising": 50000,
+                "depreciation": 50000,
+                "other_expenses": 100000
+              },
+              "operating_income": 250000,
+              "interest_expense": 50000,
+              "income_before_tax": 200000,
+              "income_tax_expense": 60000,
+              "net_income": 140000
+            },
+            "2018": {
+              "revenue": 1800000,
+              "cost_of_goods_sold": 1080000,
+              "gross_profit": 720000,
+              "operating_expenses": {
+                "salaries_and_wages": 400000,
+                "rent_and_utilities": 120000,
+                "marketing_and_advertising": 70000,
+                "depreciation": 60000,
+                "other_expenses": 110000
+              },
+              "operating_income": 240000,
+              "interest_expense": 60000,
+              "income_before_tax": 180000,
+              "income_tax_expense": 54000,
+              "net_income": 126000
+            },
+            "2019": {
+              "revenue": 2100000,
+              "cost_of_goods_sold": 1260000,
+              "gross_profit": 840000,
+              "operating_expenses": {
+                "salaries_and_wages": 450000,
+                "rent_and_utilities": 140000,
+                "marketing_and_advertising": 80000,
+                "depreciation": 70000,
+                "other_expenses": 130000
+              },
+              "operating_income": 190000,
+              "interest_expense": 70000,
+              "income_before_tax": 120000,
+              "income_tax_expense": 36000,
+              "net_income": 84000
+            },
+            "2020": {
+              "revenue": 2400000,
+              "cost_of_goods_sold": 1440000,
+              "gross_profit": 960000,
+              "operating_expenses": {
+                "salaries_and_wages": 500000,
+                "rent_and_utilities": 160000,
+                "marketing_and_advertising": 90000,
+                "depreciation": 80000,
+                "other_expenses": 150000
+              },
+              "operating_income": 220000,
+              "interest_expense": 80000,
+              "income_before_tax": 140000,
+              "income_tax_expense": 42000,
+              "net_income": 98000
+            },
+            "2021": {
+              "revenue": 2700000,
+              "cost_of_goods_sold": 1620000,
+              "gross_profit": 1080000,
+              "operating_expenses": {
+                "salaries_and_wages": 550000,
+                "rent_and_utilities": 180000,
+                "marketing_and_advertising": 100000,
+                "depreciation": 90000,
+                "other_expenses": 170000
+              },
+              "operating_income": 220000,
+              "interest_expense": 200000,
+              "income_before_taxes": 800000,
+              "income_tax_expense": 200000,
+              "net_income": 600000
+            },
+            "2022": {
+              "revenue": 5500000,
+              "cost_of_goods_sold": 2500000,
+              "gross_profit": 3000000,
+              "operating_expenses": {
+                "marketing": 600000,
+                "research_and_development": 350000,
+                "general_and_administrative": 800000
+              },
+              "operating_income": 1250000,
+              "other_income": 75000,
+              "interest_expense": 250000,
+              "income_before_taxes": 1075000,
+              "income_tax_expense": 300000,
+              "net_income": 775000
+            }
+          }
+        }
+    },
+    {
+      "credit_history":
+        {
+          "company_name": "Acme Inc.",
+          "history": [
+            {
+              "date": "2010-05-15",
+              "type": "Loan",
+              "amount_gbp": 250000,
+              "status": "Paid",
+              "description": "Loan used to start the business."
+            },
+            {
+              "date": "2012-09-10",
+              "type": "Loan",
+              "amount_gbp": 500000,
+              "status": "Paid",
+              "description": "Loan used to purchase machinery and equipment."
+            },
+            {
+              "date": "2015-06-01",
+              "type": "Loan",
+              "amount_gbp": 750000,
+              "status": "Unpaid",
+              "description": "Loan used to expand the product line. Currently in repayment."
+            },
+            {
+              "date": "2017-10-20",
+              "type": "Loan",
+              "amount_gbp": 100000,
+              "status": "Paid",
+              "description": "Loan used to purchase real estate. Defaulted after 6 months, but repayment complete now."
+            },
+            {
+              "date": "2020-03-05",
+              "type": "Loan",
+              "amount_gbp": 500000,
+              "status": "Paid",
+              "description": "Loan used to purchase new manufacturing equipment and expand the product line."
+            }
+          ]
+        }
+    },
+    {
+      "collateral":
+        {
+          "company_name": "Acme Inc.",
+          "loan_amount_gbp": 500000,
+          "loan_period_years": 5,
+          "loan_purpose": "Acme Inc. is seeking a loan of GBP 500,000 to purchase new manufacturing equipment and expand our product line.",
+          "collateral": [
+            {
+              "type": "Real estate",
+              "address": "456 Oak Street, London, UK",
+              "value_gbp": 750000
+            },
+            {
+              "type": "Machinery and equipment",
+              "description": "Conveyor belt and packaging equipment",
+              "value_gbp": 300000
+            },
+            {
+              "type": "Accounts receivable",
+              "description": "Unpaid invoices from customers",
+              "value_gbp": 200000
+            }
+          ]
+        }
+    }
+  ]
+}
