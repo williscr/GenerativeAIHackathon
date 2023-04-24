@@ -30,7 +30,7 @@ def get_data():
     return data
 
 def api_call():
-    os.environ['OPENAI_API_KEY'] = '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'
+    os.environ['OPENAI_API_KEY'] = ''
 
     qa_prompt = prompts.PromptTemplate(
     input_variables=["question", "context_str"],
@@ -76,13 +76,10 @@ def get_gpt_response(qa_prompt, data):
 
 st.title("NatWest Intelligence Agent")
 
-st.write("getting data and prompt")
 # Display the chatbot response
 # if st.button("Submit"):
 data = get_data()
 qa_prompt = api_call()
-
-st.write("making api call")
 
 answer_text = get_gpt_response(qa_prompt=qa_prompt, data=data)
 st.write("Agent: ", answer_text)    
