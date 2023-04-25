@@ -4,18 +4,31 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import json
 
-
 with open('data/ACME_all_files.json') as f:
     data = json.load(f)
 
 # Display company info
 st.header("Company Information")
 for key, value in data["files"][0]["company_info"].items():
-    st.write(f"{key.capitalize()}: {value}")
+    if key == 'business_information':
+        for key2, value2 in data["files"][0]["company_info"]['business_information'].items():
+            if key2 == 'partners':
+                for partner in data["files"][0]["company_info"]['business_information']['partners']:
+                    for key3, value3 in partner.items():
+                        st.write(f"""{' '.join(key3.split("_")).title()} : {value3}""")
+    elif key == 'business_plan':
+        for key4, value4 in data["files"][0]["company_info"]['business_plan'].items():
+            if key4 == 'financial_projections':
+                st.write("Financial Projections can be seen in below table.")
+                st.table(data["files"][0]["company_info"]['business_plan']['financial_projections'])
+            else:
+                st.write(f"""{' '.join(key4.split("_")).title()} : {value4}""")
+    else:
+        st.write(f"""{' '.join(key.split("_")).title()} : {value}""")
 st.write("")
 
+
 # Display balance sheet chart
-st.header("Balance Sheet Chart")
 yearly_summary = data["files"][1]["balance_sheet"]["yearly_summary"]
 years = list(yearly_summary.keys())
 assets = [sum([yearly_summary[year]["assets"][asset] for year in years]) for asset in yearly_summary[years[0]]["assets"]]

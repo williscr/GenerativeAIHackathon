@@ -1,25 +1,25 @@
+import os
+import json
 import streamlit as st
 
-import langchain.prompts as prompts
+from pathlib import Path
+from streamlit_chat import message
+
+from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.schema import SystemMessage
 from langchain.prompts.chat import HumanMessagePromptTemplate, ChatPromptTemplate
 from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from langchain.callbacks import get_openai_callback
-import os
+import langchain.prompts as prompts
 
-import io
-import requests
-from PyPDF2 import PdfReader
-
-from langchain.embeddings.openai import OpenAIEmbeddings
-
-import json
 
 def get_data():
-    
+    data_folder = Path("data")
+    file_path = data_folder / "ACME_all_files.json"
+
     # Opening JSON file
-    f = open('C:/Users/TEST/Desktop/Hackathon/data/ACME_all_files.json')
+    f = open(file_path)
     
     # returns JSON object as 
     # a dictionary
@@ -34,12 +34,15 @@ def api_call():
 
     qa_prompt = prompts.PromptTemplate(
     input_variables=["question", "context_str"],
-    template="""The provided data has finincial and non finicial information for a company that is applying to a loan. 
-    Please elaborate on this information to create a comprehensive summary of at least 200 words divided into three sections:
-    business summary, application informmation, financial summary. 
+    template="""The provided data has financial and non financial information for a company that is applying to a loan. 
+    Please elaborate on this information to create a comprehensive summary of at least 200 words divided into 
+    three sections: business summary, application information, financial summary. 
     The business summary should explain who the business is and the area they operate in. 
-    The application information should describe the details of the requested loan including loan amount, purpose, term. Comment on whether collateral offered is acceptable specifying the loan to value percentage numerically. Comment whether upcoming profit projections are realistic given previous profits. 
-    The financial summary should highlight trends in financial accounts, statements and credit history with quantitative evidence. If there are any defaults add an extra paragraph with details about the default.
+    The application information should describe the details of the requested loan including loan amount, purpose, term. 
+    Comment on whether collateral offered is acceptable specifying the loan to value percentage numerically.
+    Comment whether upcoming profit projections are realistic given previous profits. 
+    The financial summary should highlight trends in financial accounts, statements and credit history with
+    quantitative evidence. If there are any defaults add an extra paragraph with details about the default.
     \n\n
         {context_str}\n
         Question: {question}\n
@@ -51,7 +54,8 @@ def api_call():
 def make_chain(prompt, llm):
     if type(llm) == ChatOpenAI:
         system_message_prompt = SystemMessage(
-            content="""Answer like a relationship manager from a prestigius bank which has high attention to details and creates great summary reports.""",
+            content="""Answer like a relationship manager from a prestigius bank which has  
+                       high attention to details and creates great summary reports.""",
         )
         human_message_prompt = HumanMessagePromptTemplate(prompt=prompt)
         prompt = ChatPromptTemplate.from_messages(
@@ -78,9 +82,9 @@ st.title("NatWest Intelligence Agent")
 
 # Display the chatbot response
 # if st.button("Submit"):
+
 data = get_data()
 qa_prompt = api_call()
 
 answer_text = get_gpt_response(qa_prompt=qa_prompt, data=data)
-st.write("Agent: ", answer_text)    
-    
+st.write("Agent: ", answer_text)
